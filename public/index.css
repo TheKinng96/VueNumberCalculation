@@ -1,0 +1,31 @@
+@media screen and (max-width: 1023px) {
+    .title h1 {
+        margin-top: 20rem;
+        font-size: 12rem;
+        font-weight: bold;
+    }
+    .panel {
+        margin-top: 10rem;
+    }
+
+    .panel-body {
+        height: 50vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .panel-body div {
+        margin: 1rem;
+        flex-grow: 1;
+
+    }
+
+    .panel-title, .btn {
+        font-size: 10rem;
+    }
+
+    .btn {
+        margin: 5rem;
+    }
+}
